@@ -1,0 +1,23 @@
+# Generic conversation metadata
+
+# Conversation code composed by 3 alphabetic character + 8 numerical values (SMR)(DDMMhhmm)
+Code:
+
+Participants:
+  - S001
+  - B003
+
+# Masked/Unmasked
+Facing:
+
+
+Data:
+  - Video:
+    - Left: data/video/DUC22...mp4
+    - Centre:
+    - Right:
+  - Audio:
+  - Transcription:
+    - Automatic:
+    - Manually revised:
+    - Prosodic:
