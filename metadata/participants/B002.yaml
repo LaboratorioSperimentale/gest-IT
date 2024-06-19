@@ -1,0 +1,25 @@
+# Genetic participant metadata
+
+# Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
+Code: B002
+
+# Valorize with either Female or Male
+Gender: F
+
+# Age range (0-5, 6-10, 11-20,...)
+Age: 60-65
+
+# Valorize with one of the 20 italian regions
+Region: Emilia Romagna
+
+# Valorize with iso-code of mother tongue
+First language: ITA
+
+#
+Education level: medie superiori
+
+#
+Profession: PROFESSIONI INTELLETTUALI, SCIENTIFICHE E DI ELEVATA SPECIALIZZAZIONE
+
+#
+Notes on sight-related disabilities: ipovedente acquisita
