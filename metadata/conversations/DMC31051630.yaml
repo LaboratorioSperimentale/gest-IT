@@ -1,0 +1,23 @@
+# Generic conversation metadata
+
+# Conversation code composed by 3 alphabetic character + 8 numerical values (SMR)(DDMMhhmm)
+Code: DMC31051630
+
+Participants:
+  - B006
+  - S008
+
+# Masked/Unmasked
+Facing: masked
+
+
+Data: 31/05/2024
+  - Video:
+    - Left: data/video/DUC22...mp4
+    - Centre:
+    - Right:
+  - Audio:
+  - Transcription:
+    - Automatic:
+    - Manually revised:
+    - Prosodic:
