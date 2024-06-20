@@ -1,25 +1,25 @@
-# Generic participant metadata
+# Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-Code:
+Code: B003
 
 # Valorize with either Female or Male
-Gender:
+Gender: female
 
 # Age range (0-5, 6-10, 11-20,...)
-Age:
+Age: 66-70
 
 # Valorize with one of the 20 italian regions
-Region:
+Region: Marche
 
 # Valorize with iso-code of mother tongue
-First language:
+First language: ita
 
 #
-Education level:
+Education level: Media-superiore
 
 #
-Profession:
+Profession: Pensionata
 
 #
-Notes on sight-related disabilities:
+Notes on sight-related disabilities: Cieca acquista
