@@ -1,25 +1,26 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-Code:
+Code: B004
 
 # Valorize with either Female or Male
-Gender:
+Gender: female
 
 # Age range (0-5, 6-10, 11-20,...)
-Age:
+Age: 21-25
 
 # Valorize with one of the 20 italian regions
-Region:
+Region: "Emilia Romagna"
 
 # Valorize with iso-code of mother tongue
-First language:
+First language: ita
 
 #
-Education level:
+Education level: Diploma
 
 #
-Profession:
+Profession: Studentessa
 
 #
-Notes on sight-related disabilities:
+Notes on sight-related disabilities: Non vedente
+

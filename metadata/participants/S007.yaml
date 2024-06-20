@@ -1,13 +1,13 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-Code: B005
+Code: S007
 
 # Valorize with either Female or Male
-Gender: Female
+Gender: female
 
 # Age range (0-5, 6-10, 11-20,...)
-Age: 21-25
+Age: 20-25
 
 # Valorize with one of the 20 italian regions
 Region: Piemonte
@@ -16,10 +16,10 @@ Region: Piemonte
 First language: ita
 
 #
-Education level: Maturità classica
+Education level: laurea triennale
 
 #
-Profession: Centralinista
+Profession: studentessa
 
 #
-Notes on sight-related disabilities: cieca
+Notes on sight-related disabilities:

@@ -1,25 +1,25 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-Code:
+Code: S003
 
 # Valorize with either Female or Male
-Gender:
+Gender: male
 
 # Age range (0-5, 6-10, 11-20,...)
-Age:
+Age: 30-35
 
 # Valorize with one of the 20 italian regions
-Region:
+Region: Campania
 
 # Valorize with iso-code of mother tongue
-First language:
+First language: ita
 
 #
-Education level:
+Education level: laurea/Master II livello
 
 #
-Profession:
+Profession: bibliotecario
 
 #
 Notes on sight-related disabilities:
