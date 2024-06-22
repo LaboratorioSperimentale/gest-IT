@@ -11,12 +11,12 @@ Participants:
 Facing: unmasked
 
 
-Data: 22/05/2024
+Data:
   - Video:
-    - Left: data/video/DUC22...mp4
-    - Centre:
-    - Right:
-  - Audio:
+    - Left: data/video/DUC22051430_left.mp4
+    - Centre: data/video/DUC22051430_centre.mp4
+    - Right: data/video/DUC22051430_right.mp4
+  - Audio: data/audio/DUC22051430.wav
   - Transcription:
     - Automatic:
     - Manually revised:

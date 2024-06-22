@@ -4,7 +4,7 @@
 Code: B003
 
 # Valorize with either Female or Male
-Gender: female
+Gender: F
 
 # Age range (0-5, 6-10, 11-20,...)
 Age: 66-70
@@ -13,10 +13,10 @@ Age: 66-70
 Region: Marche
 
 # Valorize with iso-code of mother tongue
-First language: ita
+First language: ITA
 
 #
-Education level: Media-superiore
+Education level: Medie superiori
 
 #
 Profession: Pensionata

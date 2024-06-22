@@ -4,19 +4,19 @@
 Code: B004
 
 # Valorize with either Female or Male
-Gender: female
+Gender: F
 
 # Age range (0-5, 6-10, 11-20,...)
 Age: 21-25
 
 # Valorize with one of the 20 italian regions
-Region: "Emilia Romagna"
+Region: Emilia Romagna
 
 # Valorize with iso-code of mother tongue
-First language: ita
+First language: ITA
 
 #
-Education level: Diploma
+Education level: Medie superiori
 
 #
 Profession: Studentessa

@@ -4,7 +4,7 @@
 Code: S001
 
 # Valorize with either Female or Male
-Gender: Female
+Gender: F
 
 # Age range (0-5, 6-10, 11-20,...)
 Age: 26-30
@@ -16,7 +16,7 @@ Region: Emilia Romagna
 First language: ITA
 
 #
-Education level: laurea
+Education level: Laurea
 
 #
 Profession: PROFESSIONI INTELLETTUALI, SCIENTIFICHE E DI ELEVATA SPECIALIZZAZIONE

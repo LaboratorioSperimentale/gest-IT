@@ -1,7 +1,6 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-<<<<<<<< HEAD:metadata/participants/B001.yaml
 Code: B001
 
 # Valorize with either Female or Male
@@ -17,31 +16,10 @@ Region: Campania
 First language: ITA
 
 #
-Education level: medie superiori
+Education level: Medie superiori
 
 #
 Profession: PROFESSIONI TECNICHE
-========
-Code: S005
-
-# Valorize with either Female or Male
-Gender: female
-
-# Age range (0-5, 6-10, 11-20,...)
-Age: 20-25
-
-# Valorize with one of the 20 italian regions
-Region: "Friuli Venezia Giulia"
-
-# Valorize with iso-code of mother tongue
-First language: ita
-
-#
-Education level: Laurea triennale
-
-#
-Profession: studentessa
->>>>>>>> 9d435a745e80921b01413683caef5d8bd2d4924a:metadata/participants/S005.yaml
 
 #
 Notes on sight-related disabilities: malattia degenerativa della retina, ipovedente, campo visivo ristretto

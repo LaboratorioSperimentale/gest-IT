@@ -4,7 +4,7 @@
 Code: B006
 
 # Valorize with either Female or Male
-Gender: female
+Gender: F
 
 # Age range (0-5, 6-10, 11-20,...)
 Age: 70-75
@@ -13,10 +13,10 @@ Age: 70-75
 Region: Sicilia
 
 # Valorize with iso-code of mother tongue
-First language: ita
+First language: ITA
 
 #
-Education level: laurea
+Education level: Laurea
 
 #
 Profession: pensione

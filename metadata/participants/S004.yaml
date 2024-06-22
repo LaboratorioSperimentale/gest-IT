@@ -17,31 +17,10 @@ Region: Piemonte
 First language: ITA
 
 #
-Education level: laurea
+Education level: Laurea
 
 #
 Profession: studentessa
-========
-Code: S003
-
-# Valorize with either Female or Male
-Gender: male
-
-# Age range (0-5, 6-10, 11-20,...)
-Age: 30-35
-
-# Valorize with one of the 20 italian regions
-Region: Campania
-
-# Valorize with iso-code of mother tongue
-First language: ita
-
-#
-Education level: laurea/Master II livello
-
-#
-Profession: bibliotecario
->>>>>>>> 9d435a745e80921b01413683caef5d8bd2d4924a:metadata/participants/S003.yaml
 
 #
 Notes on sight-related disabilities:

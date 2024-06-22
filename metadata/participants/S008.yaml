@@ -1,31 +1,10 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-<<<<<<<< HEAD:metadata/participants/S002.yaml
-Code: S002
-
-# Valorize with either Female or Male
-Gender: F
-
-# Age range (0-5, 6-10, 11-20,...)
-Age: 21-25
-
-# Valorize with one of the 20 italian regions
-Region: Umbria
-
-# Valorize with iso-code of mother tongue
-First language: ITA
-
-#
-Education level: laurea
-
-#
-Profession: studentessa
-========
 Code: S008
 
 # Valorize with either Female or Male
-Gender: male
+Gender: M
 
 # Age range (0-5, 6-10, 11-20,...)
 Age: 20-25
@@ -34,14 +13,13 @@ Age: 20-25
 Region: Lombardia
 
 # Valorize with iso-code of mother tongue
-First language: ita
+First language: ITA
 
 #
-Education level: Laurea triennale
+Education level: Laurea
 
 #
 Profession: studente
->>>>>>>> 9d435a745e80921b01413683caef5d8bd2d4924a:metadata/participants/S008.yaml
 
 #
 Notes on sight-related disabilities:
