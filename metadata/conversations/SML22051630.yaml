@@ -1,0 +1,23 @@
+# Generic conversation metadata
+
+# Conversation code composed by 3 alphabetic character + 8 numerical values (SMR)(DDMMhhmm)
+Code: SML22051630
+
+Participants:
+  - B002
+  - S006
+
+# Masked/Unmasked
+Facing: masked
+
+
+Data:
+  - Video:
+    - Left:
+    - Centre:
+    - Right:
+  - Audio:
+  - Transcription:
+    - Automatic:
+    - Manually revised:
+    - Prosodic:
