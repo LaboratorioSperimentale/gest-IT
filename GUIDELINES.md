@@ -6,6 +6,12 @@
 	- [Install a text editor](#install-a-text-editor)
 	- [Clone the repo and swith on `dev` branch](#clone-the-repo-and-swith-on-dev-branch)
 	- [Make sure your folders are rightly organized](#make-sure-your-folders-are-rightly-organized)
+	- [Create environment](#create-environment)
+- [Workflow](#workflow)
+	- [Scripting Steps](#scripting-steps)
+		- [\[1\] Transcribe audio with `whisper`](#1-transcribe-audio-with-whisper)
+		- [\[2\] Create input files `.txt`](#2-create-input-files-txt)
+		- [\[3\] Produce `.srt` files](#3-produce-srt-files)
 
 
 
@@ -61,9 +67,16 @@ In order for everything to work right, your local folder should have the followi
 ```
 gest-IT/
 ├── data
-│   ├── audio
+│   ├── (audio)
 │   │   └── (DMC31051430.wav)
-│   ├── eaf
+│   ├── (whisper-transcribed)
+│   │   └── (DMC31051430.json)
+│   │   └── (DMC31051430.text.txt)
+│   │   └── (DMC31051430.words.json)
+│   ├── (srts)
+│   |   ├── (DMC31051430_speakerA.srt)
+│   |   └── (DMC31051430_speakerB.srt)
+│   ├── (eaf)
 │   │   └── (DMC31051430.eaf)
 │   ├── gestual
 │   │   └── DMC31051430.conll
@@ -71,10 +84,11 @@ gest-IT/
 │   │   └── DMC31051430.conll
 │   ├── prosodic
 │   │   └── DMC31051430.conll
-│   └── video
-│       ├── DMC31051430_left.mp4
-│       ├── DMC31051430_centre.mp4
-│       └── DMC31051430_right.mp4
+│   └── (video)
+│       ├── (DMC31051430_left.mp4)
+│       ├── (DMC31051430_centre.mp4)
+│       └── (DMC31051430_right.mp4)
+├── (models)
 ├── docs
 │   ├── education.md
 │   └── professioni_istat.md
@@ -92,3 +106,17 @@ gest-IT/
 │       └── generic_participant.yaml
 └── README.md
 ```
+
+## Create environment
+
+
+# Workflow
+
+
+## Scripting Steps
+
+### [1] Transcribe audio with `whisper`
+
+### [2] Create input files `.txt`
+
+### [3] Produce `.srt` files
