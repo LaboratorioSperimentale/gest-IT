@@ -10,7 +10,7 @@ TODO: add brief description of gest-IT corpus
 |----------------|----------|---------------|-------------------------|-------------|----------|---------|
 | DMC31051430    | &check;  |               |                         |             |          |         |
 | DMC31051630    | &check;  |               |                         |             |          |         |
-| DUC22051430    | &check;  | &check;       |                         |             |          |         |
+| DUC22051430    | &check;  | &check;       | &check;                 |             |          |         |
 | DUL31051430    | &check;  |               |                         |             |          |         |
 | DUL31051630    | &check;  |               |                         |             |          |         |
 | SMC22051530    | &check;  |               |                         |             |          |         |
@@ -22,16 +22,6 @@ TODO: add brief description of gest-IT corpus
 | SUL31051530    | &check;  |               |                         |             |          |         |
 | SUL31051730    | &check;  |               |                         |             |          |         |
 
-
-* 13 recorded conversations
-* 14 participants
-* 13/13 metadata created
-* 1/13 video synchronized
-* 1/13 audio extracted
-* 0/13 automatically transcribed
-* 0/13 manually revised transcription
-* 0/13 prosodic transcriptions
-* 0/13 gestual transcriptions
 
 
 ## Issues:
