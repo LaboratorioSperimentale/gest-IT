@@ -5,7 +5,7 @@ import src.automatic_transcription as transcribe
 
 
 def _transcribe_data(args):
-	input_files = args.input_dir.glob("*.wav")
+	input_files = list(args.input_dir.glob("*.wav"))+list(args.input_dir.glob("*.mp3"))
 	output_folder = args.output_dir
 	transcribe.transcribe_timestamped(input_files, output_folder,
 								   args.model, args.language)
