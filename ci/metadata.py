@@ -72,10 +72,10 @@ for conversation_filename in _CONVERSATIONS_FOLDER.glob("*.yaml"):
 
 
 with open(pathlib.Path("metadata/metadata-recap.csv"), "w") as fout:
-    fieldnames = participant.keys()
+	fieldnames = participant.keys()
 
-    writer = csv.DictWriter(fout, fieldnames=fieldnames)
-    writer.writeheader()
+	writer = csv.DictWriter(fout, fieldnames=fieldnames)
+	writer.writeheader()
 
 	for participant in participants:
-	    writer.writerow(participant)
+		writer.writerow(participant)
