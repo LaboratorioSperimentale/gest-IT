@@ -1,7 +1,6 @@
 # Genetic participant metadata
 
 # Valorize a 4-char string composed by either S (Sighted) or B (Blind) and integer padded with 0s
-<<<<<<<< HEAD:metadata/participants/S004.yaml
 Code: S004
 
 # Valorize with either Female or Male
