@@ -23,6 +23,7 @@ _GENDER = {"F", "M", "O"}
 _FACING_CONDITIONS = {"masked", "unmasked"}
 
 participants = {}
+fieldnames = []
 
 for participant_filename in _PARTICIPANTS_FOLDER.glob("*.yaml"):
 	print(f"Reading file: {participant_filename} ...")
@@ -40,6 +41,7 @@ for participant_filename in _PARTICIPANTS_FOLDER.glob("*.yaml"):
 		  			f"Error for participant {participant['Code']}: Gender not allowed"
 
 			participant["Conversations"] = []
+			fieldnames = list(participant.keys())
 			participants[participant["Code"]] = participant
 
 		except yaml.YAMLError as exc:
@@ -72,8 +74,6 @@ for conversation_filename in _CONVERSATIONS_FOLDER.glob("*.yaml"):
 
 
 with open(pathlib.Path("metadata/metadata-recap.csv"), "w") as fout:
-	fieldnames = participant.keys()
-
 	writer = csv.DictWriter(fout, fieldnames=fieldnames)
 	writer.writeheader()
 
