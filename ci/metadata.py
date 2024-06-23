@@ -18,7 +18,7 @@ _ISTAT_CATEGORIES = {"STUDIO", "PENSIONE", "LEGISLATORI, IMPRENDITORI E ALTA DIR
 _ITALIAN_REGIONS = {"Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
 					"Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche", "Molise",
 					"Piemonte", "Puglia", "Sardegna", "Sicilia", "Toscana", "Trentino-Alto Adige",
-					"Valle d'Aosta", "Veneto"}
+					"Umbria", "Valle d'Aosta", "Veneto"}
 _GENDER = {"F", "M", "O"}
 _FACING_CONDITIONS = {"masked", "unmasked"}
 
