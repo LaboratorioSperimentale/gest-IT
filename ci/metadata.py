@@ -78,4 +78,4 @@ with open(pathlib.Path("metadata/metadata-recap.csv"), "w") as fout:
 	writer.writeheader()
 
 	for participant in participants:
-		writer.writerow(participant)
+		writer.writerow(participants[participant])
