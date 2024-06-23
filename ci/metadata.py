@@ -73,6 +73,9 @@ for conversation_filename in _CONVERSATIONS_FOLDER.glob("*.yaml"):
 			exit()
 
 
+for participant in participants:
+	participants[participant]["Conversations"] = ", ".join(participants[participant]["Conversations"])
+
 with open(pathlib.Path("metadata/metadata-recap.csv"), "w") as fout:
 	writer = csv.DictWriter(fout, fieldnames=fieldnames)
 	writer.writeheader()
