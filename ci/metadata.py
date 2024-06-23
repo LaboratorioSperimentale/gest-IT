@@ -4,22 +4,22 @@ import yaml
 _PARTICIPANTS_FOLDER = pathlib.Path("metadata/participants")
 _CONVERSATIONS_FOLDER = pathlib.Path("metadata/conversations")
 
-_EDUCATION_LEVELS = set("Primaria", "Medie inferiori", "Medie superiori", "Laurea", "PhD")
-_ISTAT_CATEGORIES = set("STDUIO", "PENSIONE", "LEGISLATORI, IMPRENDITORI E ALTA DIRIGENZA",
-						"PROFESSIONI INTELLETTUALI, SCIENTIFICHE E DI ELEVATA SPECIALIZZAZIONE",
-						"PROFESSIONI TECNICHE",
-						"PROFESSIONI ESECUTIVE NEL LAVORO D'UFFICIO",
-						"PROFESSIONI QUALIFICATE NELLE ATTIVITÀ COMMERCIALI E NEI SERVIZI",
-						"ARTIGIANI, OPERAI SPECIALIZZATI E AGRICOLTORI",
-						"CONDUTTORI DI IMPIANTI, OPERAI DI MACCHINARI FISSI E MOBILI E CONDUCENTI DI VEICOLI",
-						"PROFESSIONI NON QUALIFICATE",
-						"FORZE ARMATE")
-_ITALIAN_REGIONS = set("Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
-					   "Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche", "Molise",
-					   "Piemonte", "Puglia", "Sardegna", "Sicilia", "Toscana", "Trentino-Alto Adige",
-					   "Valle d'Aosta", "Veneto")
+_EDUCATION_LEVELS = {"Primaria", "Medie inferiori", "Medie superiori", "Laurea", "PhD"}
+_ISTAT_CATEGORIES = {"STDUIO", "PENSIONE", "LEGISLATORI, IMPRENDITORI E ALTA DIRIGENZA",
+					"PROFESSIONI INTELLETTUALI, SCIENTIFICHE E DI ELEVATA SPECIALIZZAZIONE",
+					"PROFESSIONI TECNICHE",
+					"PROFESSIONI ESECUTIVE NEL LAVORO D'UFFICIO",
+					"PROFESSIONI QUALIFICATE NELLE ATTIVITÀ COMMERCIALI E NEI SERVIZI",
+					"ARTIGIANI, OPERAI SPECIALIZZATI E AGRICOLTORI",
+					"CONDUTTORI DI IMPIANTI, OPERAI DI MACCHINARI FISSI E MOBILI E CONDUCENTI DI VEICOLI",
+					"PROFESSIONI NON QUALIFICATE",
+					"FORZE ARMATE"}
+_ITALIAN_REGIONS = {"Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
+					"Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche", "Molise",
+					"Piemonte", "Puglia", "Sardegna", "Sicilia", "Toscana", "Trentino-Alto Adige",
+					"Valle d'Aosta", "Veneto"}
 
-_GENDER = set("F", "M")
+_GENDER = {"F", "M"}
 
 participants = {}
 
