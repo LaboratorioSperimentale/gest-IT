@@ -16,4 +16,3 @@ for participant_filename in _PARTICIPANTS_FOLDER.glob("*.yaml"):
 
 
 	print(data)
-	input()
