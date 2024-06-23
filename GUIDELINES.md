@@ -6,6 +6,15 @@
 	- [Install a text editor](#install-a-text-editor)
 	- [Clone the repo and swith on `dev` branch](#clone-the-repo-and-swith-on-dev-branch)
 	- [Make sure your folders are rightly organized](#make-sure-your-folders-are-rightly-organized)
+	- [Create environment](#create-environment)
+- [Workflow](#workflow)
+	- [General information](#general-information)
+	- [1. Video editing](#1-video-editing)
+	- [2. Automatic transcription with whisper](#2-automatic-transcription-with-whisper)
+	- [3. Anonimization and preparation of `.srt` files](#3-anonimization-and-preparation-of-srt-files)
+	- [3. Ortographic Transcription](#3-ortographic-transcription)
+	- [4. Prosodic Transcription](#4-prosodic-transcription)
+	- [5. Gesture Transcription](#5-gesture-transcription)
 
 
 
@@ -61,9 +70,16 @@ In order for everything to work right, your local folder should have the followi
 ```
 gest-IT/
 ├── data
-│   ├── audio
+│   ├── (audio)
 │   │   └── (DMC31051430.wav)
-│   ├── eaf
+│   ├── (whisper-transcribed)
+│   │   └── (DMC31051430.json)
+│   │   └── (DMC31051430.text.txt)
+│   │   └── (DMC31051430.words.json)
+│   ├── (srts)
+│   |   ├── (DMC31051430_speakerA.srt)
+│   |   └── (DMC31051430_speakerB.srt)
+│   ├── (eaf)
 │   │   └── (DMC31051430.eaf)
 │   ├── gestual
 │   │   └── DMC31051430.conll
@@ -71,10 +87,11 @@ gest-IT/
 │   │   └── DMC31051430.conll
 │   ├── prosodic
 │   │   └── DMC31051430.conll
-│   └── video
-│       ├── DMC31051430_left.mp4
-│       ├── DMC31051430_centre.mp4
-│       └── DMC31051430_right.mp4
+│   └── (video)
+│       ├── (DMC31051430_left.mp4)
+│       ├── (DMC31051430_centre.mp4)
+│       └── (DMC31051430_right.mp4)
+├── (models)
 ├── docs
 │   ├── education.md
 │   └── professioni_istat.md
@@ -92,3 +109,117 @@ gest-IT/
 │       └── generic_participant.yaml
 └── README.md
 ```
+
+## Create environment
+
+In order to work with the available scripting tools, the first step consists in setting up the necessary virtual environment.
+
+You can do it by running:
+
+```
+python3.11 -m venv .venv
+```
+
+The required python packages are reported in the `required.txt` file. After having activated the virtual environment (`source ./venv/bin/activate`) you can either install them manually or run:
+
+```
+pip install -r requirements.txt
+```
+
+
+# Workflow
+
+## General information
+
+
+
+
+## 1. Video editing
+
+**Video Editing** is performed in Adobe Premiere Pro. For each conversation, the three videos capturing three points of view are automatically synchronized and cut.
+For each conversation, 4 files are generated:
+
+```
+data
+ ├── audio
+ │   └── [CONVERSATION_CODE].wav
+ └── video
+     ├── [CONVERSATION_CODE].mp4
+     ├── [CONVERSATION_CODE].mp4
+     └── [CONVERSATION_CODE].mp4
+```
+
+## 2. Automatic transcription with whisper
+
+Audio files are then **automatically transcribed** via `whisper`.
+
+In order to transcribe audio files, you can run:
+
+```
+python main.py transcribe -o path/to/output/folder -i path/to/input/folder -m path/to/model/file
+```
+
+This will create a `[CONVERSATION_NAME].json` file in your chosen output folder.
+
+In order to proceed with processing, you can the use the `create-input` command by running:
+
+```
+python main.py create-input -o path/to/output/folder -i path/to/input/folder
+```
+
+The input folder should contain the previously created `json` file.
+By running this step, you will obtain two files:
+* `[CONVERSATION_NAME].text.txt`: a two column file with the first column being empty and the second containing a sequence of tokens that `whisper` identified as a coherent unit
+* `[CONVERSATION_NAME].words.json` containing timestamps associated to each word produced in whisper transcription
+
+
+## 3. Anonimization and preparation of `.srt` files
+
+At this point, a manual annotator will proceed to assign speakers IDs to the units contained in the `[CONVERSATION_NAME].text.txt` file.
+
+Example:
+
+- file before turn assignment:
+  ```
+	e in giappone
+	no che bello
+	cioè quindi le scuole più fighe fuori ovviamente dalla spagna sono queste due mie
+	parliamo di un altro viaggio in giappone io ci sono stata
+  ```
+- file after turn assignment:
+  ```
+  S001	e in giappone
+  B003	no che bello
+  B003	cioè quindi le scuole più fighe fuori ovviamente dalla spagna sono queste due mie
+  S001	parliamo di un altro viaggio in giappone io ci sono stata
+  ```
+TODO: edit with real speakers
+
+
+This step will also include **anonymization**. As far as this is concerned, annotators should follow these rules:
+* proper names
+* references to specific events
+* ...
+
+TODO: check anonymization rules
+
+
+After these steps are performed, one can produce `.srt` files that will be imported into `ELAN` for further processing.
+
+In order to produce these, you should run:
+
+```
+python main.py produce-srt
+```
+
+## 3. Ortographic Transcription
+
+TODO: define general guidelines
+
+## 4. Prosodic Transcription
+
+TODO: define general guidelines
+
+## 5. Gesture Transcription
+
+TODO: define general guidelines

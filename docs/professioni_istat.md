@@ -10,6 +10,7 @@
 	- [7 - CONDUTTORI DI IMPIANTI, OPERAI DI MACCHINARI FISSI E MOBILI E CONDUCENTI DI VEICOLI](#7---conduttori-di-impianti-operai-di-macchinari-fissi-e-mobili-e-conducenti-di-veicoli)
 	- [8 - PROFESSIONI NON QUALIFICATE](#8---professioni-non-qualificate)
 	- [9 - FORZE ARMATE](#9---forze-armate)
+	- [0 - STUDIO and 10 - PENSIONE](#0---studio-and-10---pensione)
 - [Fonte:](#fonte)
 
 
@@ -48,6 +49,11 @@ L'ottavo grande gruppo comprende le professioni che richiedono lo svolgimento di
 ## 9 - FORZE ARMATE
 
 Il nono grande gruppo comprende le professioni svolte nell'ambito delle Forze armate (Esercito, Marina, Aeronautica e Carabinieri). Garantiscono l'integrità territoriale e politica della nazione e la sua sicurezza in tempo di pace e di guerra.
+
+
+## 0 - STUDIO and 10 - PENSIONE
+
+Categorie aggiunte extra-ISTAT
 
 # Fonte:
 `https://professioni.istat.it/sistemainformativoprofessioni/cp2011/`
