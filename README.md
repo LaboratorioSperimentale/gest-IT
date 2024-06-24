@@ -15,7 +15,7 @@ TODO: add brief description of gest-IT corpus
 | DUL31051630    | &check;  |               |                         |               |             |          |         |
 | SMC22051530    | &check;  |               |                         |               |             |          |         |
 | SMC31051730    | &check;  |               |                         |               |             |          |         |
-| SML22051630    | &check;  |               |                         |               |             |          |         |
+| DML22051630    | &check;  | &check;       | &check;                 |               |             |          |         |
 | SML22051730    | &check;  |               |                         |               |             |          |         |
 | SUC22051630    | &check;  |               |                         |               |             |          |         |
 | SUC31051530    | &check;  | &check;       | &check;                 |               |             |          |         |
