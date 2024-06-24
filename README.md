@@ -8,18 +8,18 @@ TODO: add brief description of gest-IT corpus
 
 | Name           | Metadata | Video Editing | Automatic Transcription | Anonimization | Ortographic | Prosodic | Gesture |
 |----------------|----------|---------------|-------------------------|---------------|-------------|----------|---------|
-| DMC31051430    | &check;  |               |                         |               |             |          |         |
-| DMC31051630    | &check;  |               |                         |               |             |          |         |
+| DMC31051430    | &check;  | &check;       | &check;                 |               |             |          |         |
+| DMC31051630    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUC22051430    | &check;  | &check;       | &check;                 |               |             |          |         |
-| DUL31051430    | &check;  |               |                         |               |             |          |         |
+| DUL31051430    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUL31051630    | &check;  |               |                         |               |             |          |         |
 | SMC22051530    | &check;  |               |                         |               |             |          |         |
 | SMC31051730    | &check;  |               |                         |               |             |          |         |
 | SML22051630    | &check;  |               |                         |               |             |          |         |
 | SML22051730    | &check;  |               |                         |               |             |          |         |
 | SUC22051630    | &check;  |               |                         |               |             |          |         |
-| SUC31051530    | &check;  | &check;       |                         |               |             |          |         |
-| SUL31051530    | &check;  |               |                         |               |             |          |         |
+| SUC31051530    | &check;  | &check;       | &check;                 |               |             |          |         |
+| SUL31051530    | &check;  | &check;       | &check;                 |               |             |          |         |
 | SUL31051730    | &check;  |               |                         |               |             |          |         |
 
 
@@ -37,3 +37,6 @@ TODO: add brief description of gest-IT corpus
 
 ### v 0.0.2
 - added "student" and "retired" cases to classification of professions
+
+### v 0.0.3
+- continuous integrarion added
