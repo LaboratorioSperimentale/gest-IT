@@ -158,6 +158,9 @@ cython_debug/
 metadata/name-code-mapping.csv
 data/video/
 data/audio/
+data/csv/
+data/eaf
+data/conll
 data/srts/
 data/whisper-transcribed/
 models/

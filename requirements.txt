@@ -1,3 +1,4 @@
 whisper
 whisper-timestamped
 tqdm
+speach
