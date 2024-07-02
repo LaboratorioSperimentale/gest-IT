@@ -1,6 +1,5 @@
 # gest-IT corpus
 
-
 TODO: add brief description of gest-IT corpus
 
 
@@ -12,15 +11,15 @@ TODO: add brief description of gest-IT corpus
 | DMC31051630    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUC22051430    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUL31051430    | &check;  | &check;       | &check;                 |               |             |          |         |
-| DUL31051630    | &check;  |               |                         |               |             |          |         |
-| SMC22051530    | &check;  |               |                         |               |             |          |         |
-| SMC31051730    | &check;  |               |                         |               |             |          |         |
+| DUL31051630    | &check;  | &check;       |                         |               |             |          |         |
+| SMC22051530    | &check;  | &check;       |                         |               |             |          |         |
+| SMC31051730    | &check;  | &check;       |                         |               |             |          |         |
 | DML22051630    | &check;  | &check;       | &check;                 |               |             |          |         |
-| SML22051730    | &check;  |               |                         |               |             |          |         |
-| SUC22051630    | &check;  |               |                         |               |             |          |         |
+| SML22051730    | &check;  | &check;       |                         |               |             |          |         |
+| SUC22051630    | &check;  | &check;       |                         |               |             |          |         |
 | SUC31051530    | &check;  | &check;       | &check;                 |               |             |          |         |
 | SUL31051530    | &check;  | &check;       | &check;                 |               |             |          |         |
-| SUL31051730    | &check;  |               |                         |               |             |          |         |
+| SUL31051730    | &check;  | &check;       |                         |               |             |          |         |
 
 
 
