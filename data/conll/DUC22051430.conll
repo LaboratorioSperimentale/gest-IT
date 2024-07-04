@@ -1,0 +1,611 @@
+# conversation: DUC22051430
+# tu-id: TU-0000
+# speaker: S001
+# duration: 0.933
+# text: esatto
+# type: jefferson
+1	esatto	_	_	_	_	_	_	_	Start=2.280|End=3.213
+
+
+# conversation: DUC22051430
+# tu-id: TU-0001
+# speaker: B001
+# duration: 0.983
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=3.117|End=4.100
+
+
+# conversation: DUC22051430
+# tu-id: TU-0002
+# speaker: B001
+# duration: 2.000
+# text: che sia amica di qualcuno che conosco
+# type: jefferson
+1	che	_	_	_	_	_	_	_	Start=4.190
+2	sia	_	_	_	_	_	_	_	_
+3	amica	_	_	_	_	_	_	_	_
+4	di	_	_	_	_	_	_	_	_
+5	qualcuno	_	_	_	_	_	_	_	_
+6	che	_	_	_	_	_	_	_	_
+7	conosco	_	_	_	_	_	_	_	End=6.190
+
+
+# conversation: DUC22051430
+# tu-id: TU-0003
+# speaker: B001
+# duration: 0.879
+# text: esa- magari [cono-]
+# type: jefferson
+1	esa-	_	_	_	_	_	_	_	Truncated=Final|Start=6.537
+2	magari	_	_	_	_	_	_	_	_
+3	cono-	_	_	_	_	_	_	_	Overlap=B:TU-0004|Truncated=Final|End=7.416
+
+
+# conversation: DUC22051430
+# tu-id: TU-0004
+# speaker: S001
+# duration: 4.108
+# text: [eppur]e siamo andate in vacanza in un posto: e: da s-
+# type: jefferson
+1	eppure	_	_	_	_	_	_	_	Overlap=B:TU-0003|Start=7.357
+2	siamo	_	_	_	_	_	_	_	_
+3	andate	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_
+5	vacanza	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_
+7	un	_	_	_	_	_	_	_	_
+8	posto	_	_	_	_	_	_	_	ProlongedSound=posto:
+9	e	_	_	_	_	_	_	_	ProlongedSound=e:
+10	da	_	_	_	_	_	_	_	_
+11	s-	_	_	_	_	_	_	_	Truncated=Final|End=11.465
+
+
+# conversation: DUC22051430
+# tu-id: TU-0005
+# speaker: S001
+# duration: 1.088
+# text: entrambe da sole
+# type: jefferson
+1	entrambe	_	_	_	_	_	_	_	Start=11.704
+2	da	_	_	_	_	_	_	_	_
+3	sole	_	_	_	_	_	_	_	End=12.792
+
+
+# conversation: DUC22051430
+# tu-id: TU-0006
+# speaker: S001
+# duration: 0.987
+# text: e[h: la sera]
+# type: jefferson
+1	eh	_	_	_	_	_	_	_	Overlap=B:TU-0007|ProlongedSound=eh:|Start=13.047
+2	la	_	_	_	_	_	_	_	Overlap=I
+3	sera	_	_	_	_	_	_	_	Overlap=I|End=14.034
+
+
+# conversation: DUC22051430
+# tu-id: TU-0007
+# speaker: B001
+# duration: 1.500
+# text: [e parlare di viag]gi no[n sarebbe male]
+# type: jefferson
+1	e	_	_	_	_	_	_	_	Overlap=B:TU-0006|Start=13.300
+2	parlare	_	_	_	_	_	_	_	Overlap=I
+3	di	_	_	_	_	_	_	_	Overlap=I
+4	viaggi	_	_	_	_	_	_	_	Overlap=I
+5	non	_	_	_	_	_	_	_	Overlap=B:TU-0008
+6	sarebbe	_	_	_	_	_	_	_	Overlap=I
+7	male	_	_	_	_	_	_	_	Overlap=I|End=14.800
+
+
+# conversation: DUC22051430
+# tu-id: TU-0008
+# speaker: S001
+# duration: 1.996
+# text: [eh appunt]o i[nfa]tti la sera ci si
+# type: jefferson
+1	eh	_	_	_	_	_	_	_	Overlap=B:TU-0007|Start=14.163
+2	appunto	_	_	_	_	_	_	_	Overlap=I
+3	infatti	_	_	_	_	_	_	_	Overlap=B:TU-0009
+4	la	_	_	_	_	_	_	_	_
+5	sera	_	_	_	_	_	_	_	_
+6	ci	_	_	_	_	_	_	_	_
+7	si	_	_	_	_	_	_	_	End=16.159
+
+
+# conversation: DUC22051430
+# tu-id: TU-0009
+# speaker: B001
+# duration: 0.264
+# text: [sì sì]
+# type: jefferson
+1	sì	_	_	_	_	_	_	_	Overlap=B:TU-0008|Start=14.969
+2	sì	_	_	_	_	_	_	_	Overlap=I|End=15.233
+
+
+# conversation: DUC22051430
+# tu-id: TU-0010
+# speaker: S001
+# duration: 1.090
+# text: ma siamo già::
+# type: jefferson
+1	ma	_	_	_	_	_	_	_	Start=16.360
+2	siamo	_	_	_	_	_	_	_	_
+3	già	_	_	_	_	_	_	_	ProlongedSound=già::|End=17.450
+
+
+# conversation: DUC22051430
+# tu-id: TU-0011
+# speaker: experimenter
+# duration: 0.344
+# text: xxx
+# type: jefferson
+1	xxx	_	_	_	_	_	_	_	Start=17.498|End=17.842
+
+
+# conversation: DUC22051430
+# tu-id: TU-0012
+# speaker: S001
+# duration: 1.077
+# text: (ah okay) perfetto ((ride))
+# type: jefferson
+1	ah	_	_	_	_	_	_	_	meta=ride|Guess=B|Start=17.921
+2	okay	_	_	_	_	_	_	_	meta=ride|Guess=I
+3	perfetto	_	_	_	_	_	_	_	meta=ride|End=18.998
+
+
+# conversation: DUC22051430
+# tu-id: TU-0013
+# speaker: B001
+# duration: 0.870
+# text: ciao carlotta
+# type: jefferson
+1	ciao	_	_	_	_	_	_	_	Start=19.200
+2	carlotta	_	_	_	_	_	_	_	End=20.070
+
+
+# conversation: DUC22051430
+# tu-id: TU-0014
+# speaker: S001
+# duration: 0.290
+# text: ciao
+# type: jefferson
+1	ciao	_	_	_	_	_	_	_	Start=20.070|End=20.360
+
+
+# conversation: DUC22051430
+# tu-id: TU-0015
+# speaker: B001
+# duration: 0.891
+# text: da quanto tempo ((ride))
+# type: jefferson
+1	da	_	_	_	_	_	_	_	meta=ride|Start=20.500
+2	quanto	_	_	_	_	_	_	_	meta=ride
+3	tempo	_	_	_	_	_	_	_	meta=ride|End=21.391
+
+
+# conversation: DUC22051430
+# tu-id: TU-0016
+# speaker: S001
+# duration: 0.968
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=20.842|End=21.810
+
+
+# conversation: DUC22051430
+# tu-id: TU-0017
+# speaker: S001
+# duration: 0.924
+# text: ma dai
+# type: jefferson
+1	ma	_	_	_	_	_	_	_	Start=22.108
+2	dai	_	_	_	_	_	_	_	End=23.032
+
+
+# conversation: DUC22051430
+# tu-id: TU-0018
+# speaker: B001
+# duration: 1.300
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=22.636|End=23.936
+
+
+# conversation: DUC22051430
+# tu-id: TU-0019
+# speaker: S001
+# duration: 2.639
+# text: cosa ci fai in questo bellissimo villaggio turistico
+# type: jefferson
+1	cosa	_	_	_	_	_	_	_	Start=23.950
+2	ci	_	_	_	_	_	_	_	_
+3	fai	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_
+5	questo	_	_	_	_	_	_	_	_
+6	bellissimo	_	_	_	_	_	_	_	_
+7	villaggio	_	_	_	_	_	_	_	_
+8	turistico	_	_	_	_	_	_	_	End=26.589
+
+
+# conversation: DUC22051430
+# tu-id: TU-0020
+# speaker: S001
+# duration: 1.320
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=26.589|End=27.909
+
+
+# conversation: DUC22051430
+# tu-id: TU-0021
+# speaker: B001
+# duration: 2.860
+# text: eh sì il villaggio turistico non mi piace no no no no
+# type: jefferson
+1	eh	_	_	_	_	_	_	_	Start=26.600
+2	sì	_	_	_	_	_	_	_	_
+3	il	_	_	_	_	_	_	_	_
+4	villaggio	_	_	_	_	_	_	_	_
+5	turistico	_	_	_	_	_	_	_	_
+6	non	_	_	_	_	_	_	_	_
+7	mi	_	_	_	_	_	_	_	_
+8	piace	_	_	_	_	_	_	_	_
+9	no	_	_	_	_	_	_	_	_
+10	no	_	_	_	_	_	_	_	_
+11	no	_	_	_	_	_	_	_	_
+12	no	_	_	_	_	_	_	_	End=29.460
+
+
+# conversation: DUC22051430
+# tu-id: TU-0022
+# speaker: S001
+# duration: 1.186
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=28.995|End=30.181
+
+
+# conversation: DUC22051430
+# tu-id: TU-0023
+# speaker: B001
+# duration: 2.000
+# text: no se ti piacciono i viaggi e quin[di sei:]
+# type: jefferson
+1	no	_	_	_	_	_	_	_	Start=30.420
+2	se	_	_	_	_	_	_	_	_
+3	ti	_	_	_	_	_	_	_	_
+4	piacciono	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	viaggi	_	_	_	_	_	_	_	_
+7	e	_	_	_	_	_	_	_	_
+8	quindi	_	_	_	_	_	_	_	Overlap=B:TU-0024
+9	sei	_	_	_	_	_	_	_	Overlap=I|ProlongedSound=sei:|End=32.420
+
+
+# conversation: DUC22051430
+# tu-id: TU-0024
+# speaker: S001
+# duration: 0.685
+# text: [sì mo]lto
+# type: jefferson
+1	sì	_	_	_	_	_	_	_	Overlap=B:TU-0023|Start=32.036
+2	molto	_	_	_	_	_	_	_	Overlap=I|End=32.721
+
+
+# conversation: DUC22051430
+# tu-id: TU-0025
+# speaker: S001
+# duration: 1.537
+# text: (propr[io) non i] villaggi nel [xx]
+# type: jefferson
+1	proprio	_	_	_	_	_	_	_	Guess=B|Overlap=B:TU-0026|Start=32.748
+2	non	_	_	_	_	_	_	_	Overlap=I|Guess=I
+3	i	_	_	_	_	_	_	_	Overlap=I|Guess=I
+4	villaggi	_	_	_	_	_	_	_	_
+5	nel	_	_	_	_	_	_	_	_
+6	xx	_	_	_	_	_	_	_	Overlap=B:TU-0027|End=34.285
+
+
+# conversation: DUC22051430
+# tu-id: TU-0026
+# speaker: B001
+# duration: 0.456
+# text: [dai]
+# type: jefferson
+1	dai	_	_	_	_	_	_	_	Overlap=B:TU-0025|Start=32.778|End=33.234
+
+
+# conversation: DUC22051430
+# tu-id: TU-0027
+# speaker: B001
+# duration: 2.217
+# text: [no] appunto quindi cambiamo propri[o:]
+# type: jefferson
+1	no	_	_	_	_	_	_	_	Overlap=B:TU-0025|Start=34.140
+2	appunto	_	_	_	_	_	_	_	_
+3	quindi	_	_	_	_	_	_	_	_
+4	cambiamo	_	_	_	_	_	_	_	_
+5	proprio	_	_	_	_	_	_	_	Overlap=B:TU-0028|ProlongedSound=proprio:|End=36.357
+
+
+# conversation: DUC22051430
+# tu-id: TU-0028
+# speaker: S001
+# duration: 0.628
+# text: [s]trada
+# type: jefferson
+1	strada	_	_	_	_	_	_	_	Overlap=B:TU-0027|Start=36.165|End=36.793
+
+
+# conversation: DUC22051430
+# tu-id: TU-0029
+# speaker: B001
+# duration: 1.334
+# text: q[ual è l'ultimo che] hai fatto
+# type: jefferson
+1	qual	_	_	_	_	_	_	_	Overlap=B:TU-0030|Start=36.783
+2	è	_	_	_	_	_	_	_	Overlap=I
+3	l'ultimo	_	_	_	_	_	_	_	Overlap=I
+4	che	_	_	_	_	_	_	_	Overlap=I
+5	hai	_	_	_	_	_	_	_	_
+6	fatto	_	_	_	_	_	_	_	End=38.117
+
+
+# conversation: DUC22051430
+# tu-id: TU-0030
+# speaker: S001
+# duration: 0.680
+# text: [si si s-]
+# type: jefferson
+1	si	_	_	_	_	_	_	_	Overlap=B:TU-0029|Start=36.851
+2	si	_	_	_	_	_	_	_	Overlap=I
+3	s-	_	_	_	_	_	_	_	Overlap=I|Truncated=Final|End=37.531
+
+
+# conversation: DUC22051430
+# tu-id: TU-0031
+# speaker: S001
+# duration: 5.117
+# text: l'ultimo che ho fatt:o allora sono stata a siviglia:, p[er natale]
+# type: jefferson
+1	l'ultimo	_	_	_	_	_	_	_	Start=38.299
+2	che	_	_	_	_	_	_	_	_
+3	ho	_	_	_	_	_	_	_	_
+4	fatto	_	_	_	_	_	_	_	ProlongedSound=fatt:o
+5	allora	_	_	_	_	_	_	_	_
+6	sono	_	_	_	_	_	_	_	_
+7	stata	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_
+9	siviglia,	_	_	_	_	_	_	_	ProlongedSound=siviglia:|TODO:aggiungere desc
+10	,	_	_	_	_	_	_	_	_
+11	per	_	_	_	_	_	_	_	Overlap=B:TU-0032
+12	natale	_	_	_	_	_	_	_	Overlap=I|End=43.416
+
+
+# conversation: DUC22051430
+# tu-id: TU-0032
+# speaker: B001
+# duration: 1.860
+# text: [che io ador]o che [io adoro]
+# type: jefferson
+1	che	_	_	_	_	_	_	_	Overlap=B:TU-0031|Start=42.681
+2	io	_	_	_	_	_	_	_	Overlap=I
+3	adoro	_	_	_	_	_	_	_	Overlap=I
+4	che	_	_	_	_	_	_	_	_
+5	io	_	_	_	_	_	_	_	Overlap=B:TU-0033
+6	adoro	_	_	_	_	_	_	_	Overlap=I|End=44.541
+
+
+# conversation: DUC22051430
+# tu-id: TU-0033
+# speaker: S001
+# duration: 2.318
+# text: [bellissima po]i a [natale è stato mag]ico
+# type: jefferson
+1	bellissima	_	_	_	_	_	_	_	Overlap=B:TU-0032|Start=43.853
+2	poi	_	_	_	_	_	_	_	Overlap=I
+3	a	_	_	_	_	_	_	_	_
+4	natale	_	_	_	_	_	_	_	Overlap=B:TU-0034
+5	è	_	_	_	_	_	_	_	Overlap=I
+6	stato	_	_	_	_	_	_	_	Overlap=I
+7	magico	_	_	_	_	_	_	_	Overlap=I|End=46.171
+
+
+# conversation: DUC22051430
+# tu-id: TU-0034
+# speaker: B001
+# duration: 1.186
+# text: [siviglia meravigliosa]
+# type: jefferson
+1	siviglia	_	_	_	_	_	_	_	Overlap=B:TU-0033|Start=44.870
+2	meravigliosa	_	_	_	_	_	_	_	Overlap=I|End=46.056
+
+
+# conversation: DUC22051430
+# tu-id: TU-0035
+# speaker: B001
+# duration: 1.108
+# text: natale mi manca
+# type: jefferson
+1	natale	_	_	_	_	_	_	_	Start=46.170
+2	mi	_	_	_	_	_	_	_	_
+3	manca	_	_	_	_	_	_	_	End=47.278
+
+
+# conversation: DUC22051430
+# tu-id: TU-0036
+# speaker: S001
+# duration: 0.354
+# text: [bello]
+# type: jefferson
+1	bello	_	_	_	_	_	_	_	Overlap=B:TU-0037|Start=47.412|End=47.766
+
+
+# conversation: DUC22051430
+# tu-id: TU-0037
+# speaker: B001
+# duration: 2.036
+# text: [io son sta]ta con la ola de calor:
+# type: jefferson
+1	io	_	_	_	_	_	_	_	Overlap=B:TU-0036|Start=47.417
+2	son	_	_	_	_	_	_	_	Overlap=I
+3	stata	_	_	_	_	_	_	_	Overlap=I
+4	con	_	_	_	_	_	_	_	_
+5	la	_	_	_	_	_	_	_	_
+6	ola	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_
+8	calor	_	_	_	_	_	_	_	ProlongedSound=calor:|End=49.453
+
+
+# conversation: DUC22051430
+# tu-id: TU-0038
+# speaker: S001
+# duration: 0.823
+# text: ah [wow]
+# type: jefferson
+1	ah	_	_	_	_	_	_	_	Start=49.727
+2	wow	_	_	_	_	_	_	_	Overlap=B:TU-0039|End=50.550
+
+
+# conversation: DUC22051430
+# tu-id: TU-0039
+# speaker: B001
+# duration: 3.675
+# text: [quaranta g]radi c'erano proprio i giornali che dicevano state [dentro]
+# type: jefferson
+1	quaranta	_	_	_	_	_	_	_	Overlap=B:TU-0038|Start=50.000
+2	gradi	_	_	_	_	_	_	_	Overlap=I
+3	c'erano	_	_	_	_	_	_	_	_
+4	proprio	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	giornali	_	_	_	_	_	_	_	_
+7	che	_	_	_	_	_	_	_	_
+8	dicevano	_	_	_	_	_	_	_	_
+9	state	_	_	_	_	_	_	_	_
+10	dentro	_	_	_	_	_	_	_	Overlap=B:TU-0040|End=53.675
+
+
+# conversation: DUC22051430
+# tu-id: TU-0040
+# speaker: S001
+# duration: 1.019
+# text: [state d]entro ((ride))
+# type: jefferson
+1	state	_	_	_	_	_	_	_	meta=ride|Overlap=B:TU-0040|Start=53.242
+2	dentro	_	_	_	_	_	_	_	meta=ride|Overlap=I
+3	_	_	_	_	_	_	_	_	End=54.261
+
+
+# conversation: DUC22051430
+# tu-id: TU-0041
+# speaker: B001
+# duration: 0.536
+# text: sì [sì sì]
+# type: jefferson
+1	sì	_	_	_	_	_	_	_	Start=54.171
+2	sì	_	_	_	_	_	_	_	Overlap=B:TU-0042
+3	sì	_	_	_	_	_	_	_	Overlap=I|End=54.707
+
+
+# conversation: DUC22051430
+# tu-id: TU-0042
+# speaker: S001
+# duration: 2.146
+# text: [dici ca]zzo non è il mo[mento giusto] ((ride))
+# type: jefferson
+1	dici	_	_	_	_	_	_	_	meta=ride|Overlap=B:TU-0041|Start=54.386
+2	cazzo	_	_	_	_	_	_	_	meta=ride|Overlap=I
+3	non	_	_	_	_	_	_	_	meta=ride
+4	è	_	_	_	_	_	_	_	meta=ride
+5	il	_	_	_	_	_	_	_	meta=ride
+6	momento	_	_	_	_	_	_	_	meta=ride|Overlap=B:TU-0043
+7	giusto	_	_	_	_	_	_	_	meta=ride|Overlap=I|End=56.532
+
+
+# conversation: DUC22051430
+# tu-id: TU-0043
+# speaker: B001
+# duration: 3.911
+# text: [la ola m'ha fatta trop]po ridere la ola de calor immaginavo questo YUHU
+# type: jefferson
+1	la	_	_	_	_	_	_	_	Overlap=B:TU-0042|Start=55.460
+2	ola	_	_	_	_	_	_	_	Overlap=I
+3	m'ha	_	_	_	_	_	_	_	Overlap=I
+4	fatta	_	_	_	_	_	_	_	Overlap=I
+5	troppo	_	_	_	_	_	_	_	Overlap=I
+6	ridere	_	_	_	_	_	_	_	_
+7	la	_	_	_	_	_	_	_	_
+8	ola	_	_	_	_	_	_	_	_
+9	de	_	_	_	_	_	_	_	_
+10	calor	_	_	_	_	_	_	_	_
+11	immaginavo	_	_	_	_	_	_	_	_
+12	questo	_	_	_	_	_	_	_	_
+13	yuhu	_	_	_	_	_	_	_	Volume=High|End=59.371
+
+
+# conversation: DUC22051430
+# tu-id: TU-0044
+# speaker: S001
+# duration: 1.664
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=56.550|End=58.214
+
+
+# conversation: DUC22051430
+# tu-id: TU-0045
+# speaker: S001
+# duration: 0.989
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=59.224|End=60.213
+
+
+# conversation: DUC22051430
+# tu-id: TU-0046
+# speaker: B001
+# duration: 0.765
+# text: ((ride))
+# type: jefferson
+1	_	_	_	_	_	_	_	_	meta=ride|Start=59.380|End=60.145
+
+
+# conversation: DUC22051430
+# tu-id: TU-0047
+# speaker: B001
+# duration: 1.502
+# text: però siviglia d'in[canto]
+# type: jefferson
+1	però	_	_	_	_	_	_	_	Start=60.154
+2	siviglia	_	_	_	_	_	_	_	_
+3	d'incanto	_	_	_	_	_	_	_	Overlap=B:TU-0048|End=61.656
+
+
+# conversation: DUC22051430
+# tu-id: TU-0048
+# speaker: S001
+# duration: 0.917
+# text: [belliss]imo
+# type: jefferson
+1	bellissimo	_	_	_	_	_	_	_	Overlap=B:TU-0047|Start=61.071|End=61.988
+
+
+# conversation: DUC22051430
+# tu-id: TU-0049
+# speaker: B001
+# duration: 5.149
+# text: ma questa cosa di dire proprio il- oriente e occidente con- bellissima
+# type: jefferson
+1	ma	_	_	_	_	_	_	_	Start=62.155
+2	questa	_	_	_	_	_	_	_	_
+3	cosa	_	_	_	_	_	_	_	_
+4	di	_	_	_	_	_	_	_	_
+5	dire	_	_	_	_	_	_	_	_
+6	proprio	_	_	_	_	_	_	_	_
+7	il-	_	_	_	_	_	_	_	Truncated=Final
+8	oriente	_	_	_	_	_	_	_	_
+9	e	_	_	_	_	_	_	_	_
+10	occidente	_	_	_	_	_	_	_	_
+11	con-	_	_	_	_	_	_	_	Truncated=Final
+12	bellissima	_	_	_	_	_	_	_	End=67.304
