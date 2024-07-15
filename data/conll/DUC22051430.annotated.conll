@@ -1,0 +1,1078 @@
+# sent_id = tu0000
+# overlaps = tu0001
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.933
+# text_jefferson = esatto
+# text = esatto
+1	esatto	esatto	ADV	_	_	0	root	_	AlignBegin=2.28|AlignEnd=3.213
+
+# sent_id = tu0001
+# overlaps = tu0000
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.983
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=3.117|AlignEnd=4.1|meta=ride
+
+# sent_id = tu0002
+# overlaps = gu0000 gu0001 gu0002
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 2.000
+# text_jefferson = che sia amica di qualcuno che conosco
+# text = che sia amica di qualcuno che conosco
+1	che	che	SCONJ	_	_	3	mark	_	AlignBegin=4.19
+2	sia	essere	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	amica	amico	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	_	_	5	case	_	_
+5	qualcuno	qualcuno	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	_
+6	che	che	PRON	_	_	7	obj	_	_
+7	conosco	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	AlignEnd=6.19
+
+# sent_id = tu0003
+# overlaps = tu0004
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.879
+# text_jefferson = esa- magari [cono-]
+# text = esa- magari cono-
+1	esa-	esa-	X	_	_	2	reparandum	_	AlignBegin=6.537|Truncated=Final
+2	magari	magari	ADV	_	_	0	root	_	_
+3	cono-	cono-	X	_	_	2	reparandum	_	AlignEnd=7.416|Overlap=B:tu0004|Truncated=Final
+
+# sent_id = tu0004
+# overlaps = tu0003 gu0003
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 4.108
+# text_jefferson = [eppur]e siamo andate in vacanza in un posto: e: da s-
+# text = eppure siamo andate in vacanza in un posto e da s-
+1	eppure	eppure	ADV	_	_	3	advmod	_	AlignBegin=7.357|Overlap=B:tu0003
+2	siamo	essere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	3	aux	_	_
+3	andate	andare	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	_
+4	in	in	ADP	_	_	5	case	_	_
+5	vacanza	vacanza	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	in	in	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing	8	det	_	_
+8	posto	posto	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	ProlongedSound=posto:
+9	e	e	CCONJ	_	_	11	cc	_	ProlongedSound=e:
+10	da	da	ADP	_	_	11	dep	_	_
+11	s-	s-	X	_	_	3	dep	_	AlignEnd=11.465|Truncated=Final
+
+# sent_id = tu0005
+# overlaps = gu0003 gu0004 gu0005 gu0006
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.088
+# text_jefferson = entrambe da sole
+# text = entrambe da sole
+1	entrambe	entrambi	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	AlignBegin=11.704
+2	da	da	ADP	_	_	3	case	_	_
+3	sole	solo	ADJ	_	Gender=Fem|Number=Plur	1	nmod	_	AlignEnd=12.792
+
+# sent_id = tu0006
+# overlaps = tu0007 gu0007 gu0008 gu0009
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.987
+# text_jefferson = e[h: la sera]
+# text = eh la sera
+1	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=13.047|Overlap=B:tu0007|ProlongedSound=eh:
+2	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing	3	det	_	Overlap=I
+3	sera	sera	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignEnd=14.034|Overlap=I
+
+# sent_id = tu0007
+# overlaps = tu0006 tu0008 gu0007 gu0008 gu0009 gu0010 gu0011 gu0012 gu0013
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.500
+# text_jefferson = [e parlare di viag]gi no[n sarebbe male]
+# text = e parlare di viaggi non sarebbe male
+1	e	e	CCONJ	_	_	7	cc	_	AlignBegin=13.3|Overlap=B:tu0006
+2	parlare	parlare	VERB	_	VerbForm=Inf	7	csubj	_	Overlap=I
+3	di	di	ADP	_	_	4	case	_	Overlap=I
+4	viaggi	viaggio	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	Overlap=I
+5	non	non	ADV	_	_	7	advmod	_	Overlap=B:tu0008
+6	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Overlap=I
+7	male	male	ADV	_	_	0	root	_	AlignEnd=14.8|Overlap=I
+
+# sent_id = tu0008
+# overlaps = tu0007 tu0009 gu0010 gu0011 gu0012 gu0013 gu0014
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.996
+# text_jefferson = [eh appunt]o i[nfa]tti la sera ci si
+# text = eh appunto infatti la sera ci si
+1	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=14.163|Overlap=B:tu0007
+2	appunto	appunto	ADV	_	_	5	discourse	_	Overlap=I
+3	infatti	infatti	ADV	_	_	5	advmod	_	Overlap=B:tu0009
+4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
+5	sera	sera	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	ci	ci	PRON	_	Clitic=Yes|PronType=Prs	5	dep	_	_
+7	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	5	dep	_	AlignEnd=16.159
+
+# sent_id = tu0009
+# overlaps = tu0008 gu0012 gu0013
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.264
+# text_jefferson = [sì sì]
+# text = sì sì
+1	sì	sì	ADV	_	_	0	root	_	AlignBegin=14.969|Overlap=B:tu0008
+2	sì	sì	ADV	_	_	1	list	_	AlignEnd=15.233|Overlap=I
+
+# sent_id = tu0010
+# overlaps = gu0014 gu0015
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.090
+# text_jefferson = ma siamo già::
+# text = ma siamo già
+1	ma	ma	CCONJ	_	_	2	cc	_	AlignBegin=16.36
+2	siamo	essere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	già	già	ADV	_	_	2	advmod	_	AlignEnd=17.45|ProlongedSound=già::
+
+# sent_id = tu0011
+# overlaps = gu0015
+# conversation = DUC22051430
+# speaker_id = experimenter
+# duration = 0.344
+# text_jefferson = xxx
+# text = xxx
+1	xxx	UNKNOWN	X	_	_	0	root	_	AlignBegin=17.498|AlignEnd=17.842
+
+# sent_id = tu0012
+# overlaps = gu0016
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.077
+# text_jefferson = (ah okay) perfetto ((ride))
+# text = ah okay perfetto
+1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=17.921|Guess=B|meta=ride
+2	okay	ok	ADV	_	_	3	discourse	_	Guess=I|meta=ride
+3	perfetto	perfetto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignEnd=18.998|meta=ride
+
+# sent_id = tu0013
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.870
+# text_jefferson = ciao carlotta
+# text = ciao carlotta
+1	ciao	ciao	INTJ	_	_	0	root	_	AlignBegin=19.2
+2	carlotta	Carlotta	PROPN	_	_	1	vocative	_	AlignEnd=20.07
+
+# sent_id = tu0014
+# overlaps = gu0017 gu0018
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.290
+# text_jefferson = ciao
+# text = ciao
+1	ciao	ciao	INTJ	_	_	0	root	_	AlignBegin=20.07|AlignEnd=20.36
+
+# sent_id = tu0015
+# overlaps = tu0016 gu0017 gu0018 gu0019
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.891
+# text_jefferson = da quanto tempo ((ride))
+# text = da quanto tempo
+1	da	da	ADP	_	_	3	case	_	AlignBegin=20.5|meta=ride
+2	quanto	quanto	DET	_	Gender=Masc|Number=Sing|PronType=Int	3	det	_	meta=ride
+3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignEnd=21.391|meta=ride
+
+# sent_id = tu0016
+# overlaps = tu0015 gu0019
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.968
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=20.842|AlignEnd=21.81|meta=ride
+
+# sent_id = tu0017
+# overlaps = tu0018 gu0020
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.924
+# text_jefferson = ma dai
+# text = ma dai
+1	ma	ma	CCONJ	_	_	2	cc	_	AlignBegin=22.108
+2	dai	dare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignEnd=23.032
+
+# sent_id = tu0018
+# overlaps = tu0017 gu0020 gu0021
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.300
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=22.636|AlignEnd=23.936|meta=ride
+
+# sent_id = tu0019
+# overlaps = gu0022 gu0023 gu0024
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 2.639
+# text_jefferson = cosa ci fai in questo bellissimo villaggio turistico
+# text = cosa ci fai in questo bellissimo villaggio turistico
+1	cosa	cosa	PRON	_	PronType=Int	3	obj	_	AlignBegin=23.95
+2	ci	ci	PRON	_	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	fai	fare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	_	_	7	case	_	_
+5	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	bellissimo	bello	ADJ	_	Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	_
+7	villaggio	villaggio	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	turistico	turistico	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	AlignEnd=26.589
+
+# sent_id = tu0020
+# overlaps = tu0021
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.320
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=26.589|AlignEnd=27.909|meta=ride
+
+# sent_id = tu0021
+# overlaps = tu0020 tu0022 gu0025
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 2.860
+# text_jefferson = eh sì il villaggio turistico non mi piace no no no no
+# text = eh sì il villaggio turistico non mi piace no no no no
+1	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=26.6
+2	sì	sì	ADV	_	_	8	discourse	_	_
+3	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
+4	villaggio	villaggio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	turistico	turistico	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	non	non	ADV	_	_	8	advmod	_	_
+7	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	no	no	ADV	_	_	8	discourse	_	_
+10	no	no	ADV	_	_	9	list	_	_
+11	no	no	ADV	_	_	9	list	_	_
+12	no	no	ADV	_	_	9	list	_	AlignEnd=29.46
+
+# sent_id = tu0022
+# overlaps = tu0021 gu0026
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.186
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=28.995|AlignEnd=30.181|meta=ride
+
+# sent_id = tu0023
+# overlaps = tu0024
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 2.000
+# text_jefferson = no se ti piacciono i viaggi e quin[di sei:]
+# text = no se ti piacciono i viaggi e quindi sei
+1	no	no	ADV	_	_	4	discourse	_	AlignBegin=30.42
+2	se	se	SCONJ	_	_	4	mark	_	_
+3	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	piacciono	piacere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur	6	det	_	_
+6	viaggi	viaggio	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	quindi	quindi	CCONJ	_	_	9	cc	_	Overlap=B:tu0024
+9	sei	essere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	AlignEnd=32.42|Overlap=I|ProlongedSound=sei:
+
+# sent_id = tu0024
+# overlaps = tu0023
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.685
+# text_jefferson = [sì mo]lto
+# text = sì molto
+# overlaps = tu0023
+1	sì	sì	ADV	_	_	0	root	_	AlignBegin=32.036|Overlap=B:tu0023
+2	molto	molto	ADV	_	_	1	dep	_	AlignEnd=32.721|Overlap=I
+
+# sent_id = tu0025
+# overlaps = tu0026 tu0027
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.537
+# text_jefferson = (propr[io) non i] villaggi nel [xx]
+# text = proprio non i villaggi nel xx
+1	proprio	proprio	ADV	_	_	4	advmod	_	AlignBegin=32.748|Guess=B|Overlap=B:tu0026
+2	non	non	ADV	_	_	4	advmod	_	Guess=I|Overlap=I
+3	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur	4	det	_	Guess=I|Overlap=I
+4	villaggi	villaggio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	_	_	7	case	_	_
+6	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	7	det	_	_
+7	xx	UNKNOWN	NOUN	_	_	4	nmod	_	AlignEnd=34.285|Overlap=B:tu0027
+
+# sent_id = tu0026
+# overlaps = tu0025
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.456
+# text_jefferson = [dai]
+# text = dai
+1	dai	dare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=32.778|AlignEnd=33.234|Overlap=B:tu0025
+
+# sent_id = tu0027
+# overlaps = tu0025 tu0028 gu0027 gu0028 gu0029
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 2.217
+# text_jefferson = [no] appunto quindi cambiamo propri[o:]
+# text = no appunto quindi cambiamo proprio
+1	no	no	ADV	_	_	4	discourse	_	AlignBegin=34.14|Overlap=B:tu0025
+2	appunto	appunto	ADV	_	_	4	discourse	_	_
+3	quindi	quindi	ADV	_	_	4	advmod	_	_
+4	cambiamo	cambiare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	proprio	proprio	ADV	_	_	4	advmod	_	AlignEnd=36.357|Overlap=B:tu0028|ProlongedSound=proprio:
+
+# sent_id = tu0028
+# overlaps = tu0027 tu0029 gu0028 gu0029
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.628
+# text_jefferson = [s]trada
+# text = strada
+1	strada	strada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=36.165|AlignEnd=36.793|Overlap=B:tu0027
+
+# sent_id = tu0029
+# overlaps = tu0028 tu0030
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.334
+# text_jefferson = q[ual è l'ultimo che] hai fatto
+# text = qual è l'ultimo che hai fatto
+1	qual	quale	PRON	_	PronType=Int	4	nsubj	_	AlignBegin=36.783|Overlap=B:tu0030
+2	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Overlap=I
+3	l'	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	Overlap=I|SpaceAfter=No
+4	ultimo	ultimo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Overlap=I
+5	che	che	PRON	_	_	7	obj	_	Overlap=I
+6	hai	avere	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl:relcl	_	AlignEnd=38.117
+
+# sent_id = tu0030
+# overlaps = tu0029
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.680
+# text_jefferson = [si si s-]
+# text = si si s-
+1	si	sì	ADV	_	_	0	root	_	AlignBegin=36.851|Overlap=B:tu0029
+2	si	sì	ADV	_	_	1	list	_	Overlap=I
+3	s-	s-	X	_	_	1	dep	_	AlignEnd=37.531|Overlap=I|Truncated=Final
+
+# sent_id = tu0031
+# overlaps = tu0032
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 5.117
+# text_jefferson = l'ultimo che ho fatt:o allora sono stata a siviglia:, p[er natale]
+# text = l'ultimo che ho fatto allora sono stata a siviglia, per natale
+1	l'	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=38.299|SpaceAfter=No
+2	ultimo	ultimo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	_	_	5	obj	_	_
+4	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl:relcl	_	ProlongedSound=fatt:o
+6	allora	allora	ADV	_	_	8	discourse	_	_
+7	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	stata	stare	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	parataxis	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	siviglia	Siviglia	PROPN	_	_	8	obl	_	AscInt=True|ProlongedSound=siviglia:|SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	per	per	ADP	_	_	13	case	_	Overlap=B:tu0032
+13	natale	Natale	PROPN	_	_	8	obl	_	AlignEnd=43.416|Overlap=I
+
+# sent_id = tu0032
+# overlaps = tu0031 tu0033
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.860
+# text_jefferson = [che io ador]o che [io adoro]
+# text = che io adoro che io adoro
+1	che	che	PRON	_	_	3	obj	_	AlignBegin=42.681|Overlap=B:tu0031
+2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Overlap=I
+3	adoro	adorare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=I
+4	che	che	PRON	_	_	6	obj	_	_
+5	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Overlap=B:tu0033
+6	adoro	adorare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	AlignEnd=44.541|Overlap=I
+
+# sent_id = tu0033
+# overlaps = tu0032 tu0034 tu0035
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 2.318
+# text_jefferson = [bellissima po]i a [natale è stato mag]ico
+# text = bellissima poi a natale è stato magico
+1	bellissima	bello	ADJ	_	Degree=Sup|Gender=Fem|Number=Sing	0	root	_	AlignBegin=43.853|Overlap=B:tu0032
+2	poi	poi	ADV	_	_	7	cc	_	Overlap=I
+3	a	a	ADP	_	_	4	case	_	_
+4	natale	Natale	PROPN	_	_	7	obl	_	Overlap=B:tu0034
+5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	Overlap=I
+6	stato	essere	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	cop	_	Overlap=I
+7	magico	magico	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	AlignEnd=46.171|Overlap=I
+
+# sent_id = tu0034
+# overlaps = tu0033
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.186
+# text_jefferson = [siviglia meravigliosa]
+# text = siviglia meravigliosa
+1	siviglia	Siviglia	PROPN	_	_	2	nsubj	_	AlignBegin=44.87|Overlap=B:tu0033
+2	meravigliosa	meraviglioso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	AlignEnd=46.056|Overlap=I
+
+# sent_id = tu0035
+# overlaps = tu0033
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.108
+# text_jefferson = natale mi manca
+# text = natale mi manca
+1	natale	Natale	PROPN	_	_	3	nsubj	_	AlignBegin=46.17
+2	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	manca	mancare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignEnd=47.278
+
+# sent_id = tu0036
+# overlaps = tu0037
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.354
+# text_jefferson = [bello]
+# text = bello
+1	bello	bello	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=47.412|AlignEnd=47.766|Overlap=B:tu0037
+
+# sent_id = tu0037
+# overlaps = tu0036 gu0030
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 2.036
+# text_jefferson = [io son sta]ta con la ola de calor:
+# text = io son stata con la ola de calor
+1	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=47.417|Overlap=B:tu0036
+2	son	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	Overlap=I
+3	stata	stare	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Overlap=I
+4	con	con	ADP	_	_	6	case	_	_
+5	la	la	DET	_	_	6	det	_	Foreign=Yes
+6	ola	ola	NOUN	_	_	3	obl	_	Foreign=Yes
+7	de	de	ADP	_	_	8	case	_	Foreign=Yes
+8	calor	calor	NOUN	_	_	6	nmod	_	AlignEnd=49.453|Foreign=Yes|ProlongedSound=calor:
+
+# sent_id = tu0038
+# overlaps = tu0039 gu0031
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.823
+# text_jefferson = ah [wow]
+# text = ah wow
+1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=49.727
+2	wow	wow	INTJ	_	_	1	list	_	AlignEnd=50.55|Overlap=B:tu0039
+
+# sent_id = tu0039
+# overlaps = tu0038 tu0040 gu0031 gu0032 gu0033 gu0034 gu0035 gu0036
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 3.675
+# text_jefferson = [quaranta g]radi c'erano proprio i giornali che dicevano state [dentro]
+# text = quaranta gradi c'erano proprio i giornali che dicevano state dentro
+1	quaranta	quaranta	NUM	_	_	2	nummod	_	AlignBegin=50|Overlap=B:tu0038
+2	gradi	grado	NOUN	_	Gender=Masc|Number=Plur	4	parataxis	_	Overlap=I
+3	c'	ci	PRON	_	Clitic=Yes|PronType=Prs	4	expl	_	Overlap=I|SpaceAfter=No
+4	erano	essere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	proprio	proprio	ADV	_	_	7	advmod	_	_
+6	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur	7	det	_	_
+7	giornali	giornale	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+8	che	che	PRON	_	_	9	nsubj	_	_
+9	dicevano	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	state	stare	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	dentro	dentro	ADV	_	_	10	advmod	_	AlignEnd=53.675|Overlap=B:tu0040
+
+# sent_id = tu0040
+# overlaps = tu0039 tu0041 gu0035 gu0036
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.019
+# text_jefferson = [state d]entro ((ride))
+# text = state dentro
+1	state	stare	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=53.242|meta=ride|Overlap=B:tu0039
+2	dentro	dentro	ADV	_	_	1	advmod	_	AlignEnd=54.261|meta=ride|Overlap=I
+
+# sent_id = tu0041
+# overlaps = tu0040 tu0042 gu0037 gu0038
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.536
+# text_jefferson = sì [sì sì]
+# text = sì sì sì
+1	sì	sì	ADV	_	_	0	root	_	AlignBegin=54.171
+2	sì	sì	ADV	_	_	1	list	_	Overlap=B:tu0042
+3	sì	sì	ADV	_	_	1	list	_	AlignEnd=54.707|Overlap=I
+
+# sent_id = tu0042
+# overlaps = tu0041 tu0043 gu0037 gu0038 gu0039 gu0040 gu0041
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 2.146
+# text_jefferson = [dici ca]zzo non è il mo[mento giusto] ((ride))
+# text = dici cazzo non è il momento giusto
+1	dici	dire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=54.386|meta=ride|Overlap=B:tu0041
+2	cazzo	cazzo	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	meta=ride|Overlap=I
+3	non	non	ADV	_	_	6	advmod	_	meta=ride
+4	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	meta=ride
+5	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	meta=ride
+6	momento	momento	NOUN	_	Gender=Masc|Number=Sing	1	ccomp	_	meta=ride|Overlap=B:tu0043
+7	giusto	giusto	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignEnd=56.532|meta=ride|Overlap=I
+
+# sent_id = tu0043
+# overlaps = tu0042 tu0044 tu0045 gu0039 gu0040 gu0041 gu0042 gu0043 gu0044 gu0045 gu0046
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 3.911
+# text_jefferson = [la ola m'ha fatta trop]po ridere la ola de calor immaginavo questo YUHU
+# text = la ola m'ha fatta troppo ridere la ola de calor immaginavo questo yuhu
+1	la	la	DET	_	_	2	det	_	AlignBegin=55.46|Foreign=Yes|Overlap=B:tu0042|Foreign=Yes
+2	ola	ola	NOUN	_	_	5	nsubj	_	Overlap=I|Foreign=Yes
+3	m'	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Overlap=I|SpaceAfter=No
+4	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Overlap=I
+5	fatta	fare	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Overlap=I
+6	troppo	troppo	ADV	_	_	7	advmod	_	Overlap=I
+7	ridere	ridere	VERB	_	VerbForm=Inf	5	ccomp	_	_
+8	la	la	DET	_	_	9	det	_	Foreign=Yes
+9	ola	ola	NOUN	_	_	5	parataxis	_	Foreign=Yes
+10	de	de	ADP	_	_	11	case	_	Foreign=Yes
+11	calor	calor	NOUN	_	_	9	nmod	_	Foreign=Yes
+12	immaginavo	immaginare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	parataxis	_	_
+13	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+14	yuhu	yuhu	INTJ	_	_	5	discourse	_	AlignEnd=59.371|Volume=High
+
+# sent_id = tu0044
+# overlaps = tu0043 gu0042 gu0043
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 1.664
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=56.55|AlignEnd=58.214|meta=ride
+
+# sent_id = tu0045
+# overlaps = tu0043 tu0046 tu0047
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.989
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=59.224|AlignEnd=60.213|meta=ride
+
+# sent_id = tu0046
+# overlaps = tu0045
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 0.765
+# text_jefferson = ((ride))
+# text = EMPTY
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=59.38|AlignEnd=60.145|meta=ride
+
+# sent_id = tu0047
+# overlaps = tu0045 tu0048
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 1.502
+# text_jefferson = però siviglia d'in[canto]
+# text = però siviglia d'incanto
+1	però	però	CCONJ	_	_	4	cc	_	AlignBegin=60.154
+2	siviglia	Siviglia	PROPN	_	_	4	nsubj	_	_
+3	d'	di	ADP	_	_	4	case	_	SpaceAfter=No
+4	incanto	incanto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignEnd=61.656|Overlap=B:tu0048
+
+# sent_id = tu0048
+# overlaps = tu0047
+# conversation = DUC22051430
+# speaker_id = S001
+# duration = 0.917
+# text_jefferson = [belliss]imo
+# text = bellissimo
+1	bellissimo	bello	ADJ	_	Degree=Sup|Gender=Masc|Number=Sing	0	root	_	AlignBegin=61.071|AlignEnd=61.988|Overlap=B:tu0047
+
+# sent_id = tu0049
+# overlaps = gu0047 gu0048 gu0049 gu0050
+# conversation = DUC22051430
+# speaker_id = B001
+# duration = 5.149
+# text_jefferson = ma questa cosa di dire proprio il- oriente e occidente con- bellissima
+# text = ma questa cosa di dire proprio il- oriente e occidente con- bellissima
+1	ma	ma	CCONJ	_	_	12	cc	_	AlignBegin=62.155
+2	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	di	di	ADP	_	_	5	mark	_	_
+5	dire	dire	VERB	_	VerbForm=Inf	3	acl	_	_
+6	proprio	proprio	ADV	_	_	5	advmod	_	_
+7	il-	il-	X	_	_	8	reparandum	_	Truncated=Final
+8	oriente	oriente	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	occidente	occidente	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+11	con-	con-	X	_	_	12	reparandum	_	Truncated=Final
+12	bellissima	bello	ADJ	_	Degree=Sup|Gender=Fem|Number=Sing	0	root	_	AlignEnd=67.304
+
+# conversation = DUC22051430
+# sent_id = gu0000
+# overlaps = tu0002
+# speaker = B001
+# duration = 0.444
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=4.363|AlignEnd=4.807|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5fc\ue5ec\uf1a0\ue5fe\ue5ec - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0001
+# overlaps = tu0002 gu0002
+# speaker = B001
+# duration = 0.472
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=4.865|AlignEnd=5.337|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fc\ue5ec\uf1a0\ue5fe\ue5ee - \ue004\ue005\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0002
+# overlaps = tu0002 gu0001
+# speaker = B001
+# duration = 0.472
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=4.865|AlignEnd=5.337|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5fc\ue5ec\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue004\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0003
+# overlaps = tu0004 tu0005
+# speaker = S001
+# duration = 0.330
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=11.410|AlignEnd=11.740|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0004
+# overlaps = tu0005 gu0005
+# speaker = S001
+# duration = 0.610
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=11.740|AlignEnd=12.350|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fd\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0005
+# overlaps = tu0005 gu0004
+# speaker = S001
+# duration = 0.610
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=11.740|AlignEnd=12.350|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fd\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0006
+# overlaps = tu0005
+# speaker = S001
+# duration = 0.670
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=12.350|AlignEnd=13.020|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\uf19f\ue5e7\ue5ef\ue5fb\ue5ee\uf1a0\ue5fd\ue5ee - \ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0007
+# overlaps = tu0006 tu0007 gu0008 gu0009
+# speaker = S001
+# duration = 1.140
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=13.020|AlignEnd=14.160|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0008
+# overlaps = tu0006 tu0007 gu0007 gu0009
+# speaker = S001
+# duration = 1.140
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=13.020|AlignEnd=14.160|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0009
+# overlaps = tu0006 tu0007 gu0007 gu0008
+# speaker = B001
+# duration = 0.517
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=13.576|AlignEnd=14.093|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5e8\ue5ef\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0010
+# overlaps = tu0007 tu0008 gu0011
+# speaker = S001
+# duration = 0.210
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=14.540|AlignEnd=14.750|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0011
+# overlaps = tu0007 tu0008 gu0010
+# speaker = S001
+# duration = 0.210
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=14.540|AlignEnd=14.750|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0012
+# overlaps = tu0007 tu0008 tu0009 gu0013
+# speaker = S001
+# duration = 0.890
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=14.750|AlignEnd=15.640|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0013
+# overlaps = tu0007 tu0008 tu0009 gu0012
+# speaker = S001
+# duration = 0.890
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=14.750|AlignEnd=15.640|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0014
+# overlaps = tu0008 tu0010
+# speaker = S001
+# duration = 0.750
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=15.640|AlignEnd=16.390|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\ue005\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0015
+# overlaps = tu0010 tu0011
+# speaker = S001
+# duration = 1.360
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=16.500|AlignEnd=17.860|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0016
+# overlaps = tu0012
+# speaker = S001
+# duration = 0.480
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=18.310|AlignEnd=18.790|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fc\ue5ec\uf1a0\ue5fd\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0017
+# overlaps = tu0014 tu0015 gu0018 gu0019
+# speaker = S001
+# duration = 0.570
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=20.250|AlignEnd=20.820|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0018
+# overlaps = tu0014 tu0015 gu0017 gu0019
+# speaker = S001
+# duration = 0.570
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=20.250|AlignEnd=20.820|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0019
+# overlaps = tu0015 tu0016 gu0017 gu0018
+# speaker = B001
+# duration = 0.653
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=20.537|AlignEnd=21.190|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198 ( \ue00e \uf1a5 \ue008\uf1a0\uebcc - \ue004\uf1a0\uf1a2) ( \ue00b \ue00c\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0020
+# overlaps = tu0017 tu0018
+# speaker = S001
+# duration = 0.870
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=22.260|AlignEnd=23.130|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5fc\ue5ec\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0021
+# overlaps = tu0018
+# speaker = S001
+# duration = 0.680
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=23.130|AlignEnd=23.810|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fd\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fd\ue5ee\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198 ( \ue00e \uf1a5 \ue008\uf1a0\uebcc - \ue004\uf1a0\uf1a2) ( \ue00b \ue00c\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0022
+# overlaps = tu0019 gu0023
+# speaker = S001
+# duration = 0.970
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=24.500|AlignEnd=25.470|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0023
+# overlaps = tu0019 gu0022
+# speaker = S001
+# duration = 0.970
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=24.500|AlignEnd=25.470|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5fd\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue004\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0024
+# overlaps = tu0019
+# speaker = S001
+# duration = 0.690
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=25.470|AlignEnd=26.160|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0025
+# overlaps = tu0021
+# speaker = B001
+# duration = 0.312
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=28.019|AlignEnd=28.331|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fe\ue5ee - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0026
+# overlaps = tu0022
+# speaker = S001
+# duration = 0.460
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=29.490|AlignEnd=29.950|gesture='\ue5de\ue002 [ \uf197\ue5dd ] [ \uf198\ue5dd ]'
+
+# conversation = DUC22051430
+# sent_id = gu0027
+# overlaps = tu0027
+# speaker = B001
+# duration = 0.360
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=34.508|AlignEnd=34.868|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0028
+# overlaps = tu0027 tu0028 gu0029
+# speaker = B001
+# duration = 0.440
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=35.920|AlignEnd=36.360|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fc\ue5ec\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0029
+# overlaps = tu0027 tu0028 gu0028
+# speaker = B001
+# duration = 0.440
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=35.920|AlignEnd=36.360|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fc\ue5ec\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0030
+# overlaps = tu0037
+# speaker = B001
+# duration = 1.052
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=48.125|AlignEnd=49.177|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fc\ue5ec\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0031
+# overlaps = tu0038 tu0039
+# speaker = B001
+# duration = 0.183
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=50.177|AlignEnd=50.360|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fd\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0032
+# overlaps = tu0039
+# speaker = B001
+# duration = 0.408
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=50.714|AlignEnd=51.122|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0033
+# overlaps = tu0039 gu0034
+# speaker = B001
+# duration = 0.733
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=51.466|AlignEnd=52.199|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0034
+# overlaps = tu0039 gu0033
+# speaker = B001
+# duration = 0.733
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=51.466|AlignEnd=52.199|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0035
+# overlaps = tu0039 tu0040 gu0036
+# speaker = B001
+# duration = 1.196
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=52.376|AlignEnd=53.572|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee - \ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0036
+# overlaps = tu0039 tu0040 gu0035
+# speaker = B001
+# duration = 1.196
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=52.376|AlignEnd=53.572|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee - \ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0037
+# overlaps = tu0041 tu0042 gu0038
+# speaker = S001
+# duration = 0.410
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=54.480|AlignEnd=54.890|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5fc\ue5ec\uf1a0\ue5fe\ue5ec - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0038
+# overlaps = tu0041 tu0042 gu0037
+# speaker = S001
+# duration = 0.410
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=54.480|AlignEnd=54.890|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ec\uf1a0\ue5fe\ue5ec - \ue004\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee - \ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0039
+# overlaps = tu0042 tu0043 gu0040
+# speaker = S001
+# duration = 0.710
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=54.890|AlignEnd=55.600|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0040
+# overlaps = tu0042 tu0043 gu0039
+# speaker = S001
+# duration = 0.710
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=54.890|AlignEnd=55.600|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0041
+# overlaps = tu0042 tu0043
+# speaker = B001
+# duration = 0.781
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=55.640|AlignEnd=56.421|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5fd\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0042
+# overlaps = tu0043 tu0044
+# speaker = S001
+# duration = 0.289
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=57.820|AlignEnd=58.109|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0043
+# overlaps = tu0043 tu0044
+# speaker = S001
+# duration = 0.351
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=58.109|AlignEnd=58.460|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5fb\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0044
+# overlaps = tu0043 gu0045 gu0046
+# speaker = S001
+# duration = 0.357
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=58.460|AlignEnd=58.817|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ec - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5fc\ue5ee\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0045
+# overlaps = tu0043 gu0044 gu0046
+# speaker = B001
+# duration = 0.637
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=58.469|AlignEnd=59.106|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fd\ue5ee - \ue005\ue006\ue007\uf19f\ue5fd\ue5ee\ue5fc\ue5ee\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e \uf1a5 \ue008\uf1a0\uebcc - \ue004\uf1a0\uf1a2) ( \ue00b \ue00c\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0046
+# overlaps = tu0043 gu0044 gu0045
+# speaker = B001
+# duration = 0.637
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=58.469|AlignEnd=59.106|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ea\ue5ef\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee - \ue004\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fd\ue5ee - \ue005\ue006\ue007\uf19f\ue5fd\ue5ee\ue5fc\ue5ee\uf1a0\ue5fd\ue5ee ] [ \uf198 ( \ue00e \uf1a5 \ue008\uf1a0\uebcc - \ue004\uf1a0\uf1a2) ( \ue00b \ue00c\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0047
+# overlaps = tu0049 gu0048
+# speaker = B001
+# duration = 0.572
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=62.582|AlignEnd=63.154|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5e8\ue5ef\uf1a0\ue5fe\ue5ee - \ue004\ue005\ue006\ue007\uf19f\ue5fe\ue5ee\ue5fc\ue5ee\uf1a0\ue5fe\ue5ee ] [ \uf198 ( \ue00e\ue001 ) ( \ue00b \ue00c\ue004\ue005\ue006\ue007 - \uf196\ue5ee\ue001 ) ]'
+
+# conversation = DUC22051430
+# sent_id = gu0048
+# overlaps = tu0049 gu0047
+# speaker = B001
+# duration = 0.572
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=62.582|AlignEnd=63.154|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ee\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0049
+# overlaps = tu0049 gu0050
+# speaker = B001
+# duration = 0.930
+# text = EMPTY
+# type = gestual - LH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=64.675|AlignEnd=65.605|gesture='\ue5de\ue002 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
+# conversation = DUC22051430
+# sent_id = gu0050
+# overlaps = tu0049 gu0049
+# speaker = B001
+# duration = 0.930
+# text = EMPTY
+# type = gestual - RH
+1	EMPTY	EMPTY	X	_	_	0	root	_	AlignBegin=64.675|AlignEnd=65.605|gesture='\ue5de\ue003 [ \uf197 \ue008\uf19f\ue5ff\ue5ec\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef - \ue004\ue005\ue006\ue007\uf19f\ue5e7\ue5ef\ue5e8\ue5ef\uf1a0\ue5e7\ue5ef ] [ \uf198\ue001 ]'
+
