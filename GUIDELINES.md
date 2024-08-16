@@ -13,6 +13,10 @@
 	- [2. Automatic transcription with whisper](#2-automatic-transcription-with-whisper)
 	- [3. Anonimization and preparation of `.srt` files](#3-anonimization-and-preparation-of-srt-files)
 	- [3. Ortographic Transcription](#3-ortographic-transcription)
+		- [Numbers](#numbers)
+		- [Common conventions](#common-conventions)
+			- [Other](#other)
+	- [Anonymization](#anonymization)
 	- [4. Prosodic Transcription](#4-prosodic-transcription)
 	- [5. Gesture Transcription](#5-gesture-transcription)
 
@@ -131,7 +135,7 @@ pip install -r requirements.txt
 
 ## General information
 
-
+TODO: add metadata description
 
 
 ## 1. Video editing
@@ -214,7 +218,28 @@ python main.py produce-srt
 
 ## 3. Ortographic Transcription
 
-TODO: define general guidelines
+- one layer per speaker (using its identifier as tiername) + one layer for the experimeter + one layer for environment (metalanguage)
+- everything will be lowercased
+
+### Numbers
+- if specific pronunciation (ex. `centun volte`), then transcribe
+- else, you can transcribe the number as is and it will be automatically converted to words (library `num2word`)
+- TODO: decide if there's a difference between years, ordinals, cardinals etc...
+
+### Common conventions
+
+- `ok` will be transformed into `okei`
+- acronyms have to be expanded (eg. cgil -> cigielle)
+- `cioè` sometimes pronounced fast is transcribed as `ceh`
+- `yuhu`
+- Le interiezioni sono sempre trascritte con una ‘h’ alla fine (es, mh; ah; eh)
+
+#### Other
+- interruptions with hyphen
+- ((ride)) etc
+- TODO: define possible values
+
+## Anonymization
 
 ## 4. Prosodic Transcription
 

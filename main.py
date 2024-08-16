@@ -16,8 +16,14 @@ def _create_input(args):
 	output_folder = args.output_dir
 	transcribe.create_input(input_files, output_folder)
 
+
 def _produce_srt(args):
-	pass
+	input_files = list(args.input_dir.glob("*.text.txt"))
+	words_files = list(args.input_dir.glob("*.words.json"))
+
+	output_folder = args.output_dir
+	transcribe.produce_srt(input_files, words_files, output_folder)
+
 
 if __name__ == "__main__":
 
@@ -56,9 +62,11 @@ if __name__ == "__main__":
 										  description='produce srt for elan import',
 										  help='produce srt for elan import')
 	parser_produce.add_argument("-o", "--output-dir", default="output_srts/",
-								help="path to output dir, default is output_srts/")
+							type=pathlib.Path,
+  							help="path to output dir, default is output_srts/")
 	parser_produce.add_argument("-i", "--input-dir", default="annotators_input",
-							 	help="folder containing text documents annotated with speaker on first column")
+ 							 type=pathlib.Path,
+						 	help="folder containing text documents annotated with speaker on first column")
 	parser_produce.set_defaults(func=_produce_srt)
 
 
