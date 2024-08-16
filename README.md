@@ -18,7 +18,7 @@ Overall, 13 conversations were recorded, for a total of roughly 7 hours.
 
 | Name           | Length   | Metadata | Video Editing | Automatic Transcription | Anonimization | Ortographic | Prosodic | Gesture |
 |----------------|----------|----------|---------------|-------------------------|---------------|-------------|----------|---------|
-| DMC31051430    | 32.57    | &check;  | &check;       | &check;                 |               |             |          |         |
+| DMC31051430    | 32.57    | &check;  | &check;       | &check;                 | &check;       | 0:65.605    |0:65.605  |0:65.605 |
 | DMC31051630    | 35.35    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUC22051430    | 32.00    | &check;  | &check;       | &check;                 |               |             |          |         |
 | DUL31051430    | 35.21    | &check;  | &check;       | &check;                 |               |             |          |         |
