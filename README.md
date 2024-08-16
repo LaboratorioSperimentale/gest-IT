@@ -50,3 +50,6 @@ Overall, 13 conversations were recorded, for a total of roughly 7 hours.
 
 ### v 0.0.3
 - continuous integrarion added
+
+### v 0.1.0
+- first release, one minute pilot transcription
