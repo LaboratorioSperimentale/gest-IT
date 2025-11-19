@@ -53,3 +53,6 @@ Overall, 13 conversations were recorded, for a total of roughly 7 hours.
 
 ### v 0.1.0
 - first release, one minute pilot transcription
+
+### v 0.1.1
+- update metadata for S005
